@@ -67,7 +67,7 @@ export default function Home() {
           {/* Profile Image */}
           <div className="flex flex-col items-center">
             <Image
-              className="rounded-full object-cover border-4 border-blue-500 shadow-lg"
+              className="rounded-full object-cover border-4 border-blue-500"
               src="/Profile/Me.jpeg"
               alt="Tanveen Bal"
               width={150}
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
 
           {/* About Section */}
-          <p className="max-w-3xl text-left text-white">
+          <p className="max-w-3xl text-center text-white">
             I am currently finishing my Bachelors in Computer Science and Engineering degree at the University of California, Irvine, with plans to advance into a Master's program in Machine Learning. I am passionate about software engineering and using machine learning to solve real-world problems. Feel free to explore some of my projects below. 
           </p>
 
