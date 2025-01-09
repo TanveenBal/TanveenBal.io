@@ -14,7 +14,7 @@ const projects = [
     title: "Chess AI",
     image: "/ChessAI/Themes.gif",
     summary:
-      "Created a chess engine with AI algorithms for move prediction and customizable themes for player engagement.",
+      "A chess engine with AI algorithms for move prediction and fully customizable UI with themes and visuals for player engagement.",
     link: "https://github.com/TanveenBal/Chess-AI",
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     title: "Car Classyfier",
     image: "/Car/Porche911.gif",
     summary:
-      "Developed a model predicting car make and model from images with 88.76% accuracy, analyzing 280,000+ images.",
+      "A model that can predict a cars make, model, and body style from an image with 88.76% accuracy, analyzing 280,000+ images.",
     link: "https://github.com/TanveenBal/Car-Classyfier",
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     title: "Unbeatable Pong",
     image: "/Pong/Pong.gif",
     summary:
-      "Built a retro pong game in C++ with Raylib, featuring classic gameplay, CPU opponent AI, and dynamic gameplay.",
+      "A retro pong game in C++ with Raylib, featuring classic gameplay, CPU opponent AI, and dynamic gameplay.",
     link: "https://github.com/TanveenBal/Unbeatable-Pong",
   },
   {
@@ -46,7 +46,7 @@ const projects = [
     title: "Object Detection Drone",
     image: "/Drone/Drone.jpg",
     summary:
-      "Implementing applications of autonomous drone flight in combination with real-time object detection",
+      "A cutting-edge drone with a Raspberry Pi neural network chip and AI camera for real-time object detection and autonomous flight across diverse applications.",
     link: "https://www.burkelab.com/2024/11/23/students-build-and-fly-guinness-record-drone/",
   },
   // {
