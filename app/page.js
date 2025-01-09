@@ -42,8 +42,16 @@ const projects = [
       "Built a retro pong game in C++ with Raylib, featuring classic gameplay, CPU opponent AI, and dynamic gameplay.",
     link: "https://github.com/TanveenBal/Unbeatable-Pong",
   },
+  {
+    id: 6,
+    title: "Object Detection Drone",
+    image: "/Drone/Drone.jpg",
+    summary:
+      "Implementing applications of autonomous drone flight in combination with real-time object detection",
+    link: "https://www.burkelab.com/2024/11/23/students-build-and-fly-guinness-record-drone/",
+  },
   // {
-  //   id: 5,
+  //   id: 7,
   //   title: "RISC Revolution",
   //   image: "/project5.png",
   //   summary:
@@ -61,7 +69,7 @@ export default function Home() {
           <p className="max-w-3xl text-left text-white">
             I am currently pursuing a Bachelor's degree in Computer Science and Engineering at the University of California, Irvine, with plans to advance into a Master's program in Machine Learning. Alongside my studies, I am continuously refining my skills in full-stack development and exploring cutting-edge domains like AI, cloud systems, embedded solutions, and generative tools. My work bridges innovative technologies to create impactful solutions. Feel free to explore my projects below!
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 place-items-center w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center w-full">
             {projects.map((project) => (
               <Link key={project.id} href={project.link}>
                 <div className="group cursor-pointer flex flex-col items-center text-center w-80">
