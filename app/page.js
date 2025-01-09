@@ -108,7 +108,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-4 py-8 border-t border-gray-700 w-full">
             <h2 className="text-2xl sm:text-3xl font-semibold text-blue-700">Contact Me</h2>
             <p className="text-white text-center max-w-lg">
-              I'm always excited to connect and collaborate. Feel free to reach out to me through any of the platforms below.
+              I'm always excited to connect and collaborate. Feel free to reach out to me through any of the platforms below, or download my resume to learn more about my experience and skills.
             </p>
             
             <div className="flex flex-row items-center justify-center gap-8 mt-4">
@@ -158,6 +158,21 @@ export default function Home() {
                   width={20}
                   height={20}
                 />
+              </a>
+              {/* Resume */}
+              <a
+              href="/Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-75 transition-opacity flex items-center gap-2 sm:gap-2"
+            >
+              <span className="text-white hidden sm:inline">Download Resume</span>
+              <Image
+                src="/Icons/download.svg"
+                alt="Resume Icon"
+                width={20}
+                height={20}
+              />
               </a>
             </div>
           </div>
