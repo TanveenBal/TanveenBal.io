@@ -34,6 +34,14 @@ const projects = [
       "A food-focused social media app, featuring restaurant recommendations and tailored for college communities.",
     link: "https://www.instagram.com/leksa.ai/",
   },
+    {
+    id: 5,
+    title: "Unbeatable Pong",
+    image: "/Pong/Pong.gif",
+    summary:
+      "Built a retro pong game in C++ with Raylib, featuring classic gameplay, CPU opponent AI, and dynamic gameplay.",
+    link: "https://github.com/TanveenBal/Unbeatable-Pong",
+  },
   // {
   //   id: 5,
   //   title: "RISC Revolution",
@@ -51,21 +59,21 @@ export default function Home() {
         <main className="flex flex-col items-center gap-8">
         <h1 className="text-3xl sm:text-4xl font-bold text-red-500">Tanveen Bal</h1>
           <p className="max-w-3xl text-left text-white">
-            I am currently pursuing a Bachelor's degree in Computer Science and Engineering at the University of California, Irvine, with plans to advance into a Master's program in Machine Learning. Alongside my studies, I am continuously refining my skills in full-stack development and exploring cutting-edge domains like AI, cloud systems, embedded solutions, and generative tools. My work bridges innovative technologies to create impactful solutions. Feel free to explore my projects below—let’s collaborate and build something transformative together!
+            I am currently pursuing a Bachelor's degree in Computer Science and Engineering at the University of California, Irvine, with plans to advance into a Master's program in Machine Learning. Alongside my studies, I am continuously refining my skills in full-stack development and exploring cutting-edge domains like AI, cloud systems, embedded solutions, and generative tools. My work bridges innovative technologies to create impactful solutions. Feel free to explore my projects below!
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 place-items-center w-full">
             {projects.map((project) => (
               <Link key={project.id} href={project.link}>
                 <div className="group cursor-pointer flex flex-col items-center text-center w-80">
                   <Image
-                    className="rounded-lg object-cover transition-transform duration-200 ease-in-out group-hover:scale-105"
+                    className="rounded-lg object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
                     src={project.image}
                     alt={project.title}
                     width={320}
                     height={240}
                   />
                   <h2 className="mt-4 text-lg text-left font-semibold text-white">{project.title}</h2>
-                  <p className="text-sm text-left text-gray-600">{project.summary}</p>
+                  <p className="text-sm text-center text-gray-500">{project.summary}</p>
                 </div>
               </Link>
             ))}
