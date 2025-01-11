@@ -69,25 +69,25 @@ const projects = [
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#3a4269] to-[#000000]">
+    <div className="min-h-screen bg-gradient-to-b from-[#3a4269] to-[#000000] font-custom">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <main className="flex flex-col items-center gap-8">
           {/* Profile Section */}
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8">
             {/* Profile Image */}
-            <div className="w-full sm:w-1/3 flex justify-center sm:justify-start">
+            <div className="w-full flex justify-center sm:justify-start">
               <Image
                 className="rounded-full object-cover border-transparent shadow-[0px_0px_25px_10px_rgba(255,255,255,0.4)]"
                 src="/Me.png"
                 alt="Tanveen Bal"
-                width={250}
-                height={250}
+                width={215}
+                height={215}
               />
             </div>
             {/* About Section */}
             <div className="max-w-3xl text-center sm:text-left">
-              <h1 className="mt-4 text-3xl sm:text-4xl font-bold text-[#ffffff]">Tanveen Bal</h1>
-              <p className="mt-4 text-[#d1d5db]">
+              <h1 className="mt-4 text-3xl sm:text-4xl text-[#ffffff]">Tanveen Bal</h1>
+              <p className="mt-4 text-[#d1d5db] text-lg">
                 I am currently finishing my Bachelors in Computer Science and Engineering degree at the University of California, Irvine, with plans to advance into a Master's program in Machine Learning. I am passionate about software engineering and using machine learning to solve real-world problems. Feel free to explore some of my projects below.
               </p>
             </div>
@@ -111,7 +111,7 @@ export default function Home() {
                   height={240}
                 />
                 <h2 className="mt-4 text-lg text-white">{project.title}</h2>
-                <p className="text-sm text-gray-400">{project.summary}</p>
+                <p className="text-sm text-gray-300">{project.summary}</p>
               </a>
             ))}
           </div>
