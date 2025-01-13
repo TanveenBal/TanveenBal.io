@@ -193,3 +193,8 @@ export default function Home() {
     </div>
   );
 }
+
+export const metadata = {
+  title: "Tanveen Bal",
+  description: "Learn more about me!",
+}
