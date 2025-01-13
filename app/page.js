@@ -131,13 +131,13 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="hover:opacity-75 transition-opacity flex items-center gap-2 sm:gap-2"
               >
-                <span className="text-[#3b82f6] hidden sm:inline"> tanveenbal@gmail.com</span>
                 <Image
                   src="/Icons/mail.svg"
                   alt="Email Icon"
                   width={20}
                   height={20}
                 />
+                <span className="text-[#3b82f6] hidden sm:inline"> tanveenbal@gmail.com</span>
               </a>
 
               {/* LinkedIn */}
@@ -147,13 +147,13 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="hover:opacity-75 transition-opacity flex items-center gap-2 sm:gap-2"
               >
-                <span className="text-[#3b82f6] hidden sm:inline">linkedin.com/in/tanveenbal</span>
                 <Image
                   src="/Icons/linkedin.svg"
                   alt="LinkedIn Icon"
                   width={20}
                   height={20}
                 />
+                <span className="text-[#3b82f6] hidden sm:inline">linkedin.com/in/tanveenbal</span>
               </a>
 
               {/* GitHub */}
@@ -163,13 +163,13 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="hover:opacity-75 transition-opacity flex items-center gap-2 sm:gap-2"
               >
-                <span className="text-[#3b82f6] hidden sm:inline">github.com/tanveenbal</span>
                 <Image
                   src="/Icons/github.svg"
                   alt="GitHub Icon"
                   width={20}
                   height={20}
                 />
+                <span className="text-[#3b82f6] hidden sm:inline">github.com/tanveenbal</span>
               </a>
               {/* Resume */}
               <a
@@ -178,13 +178,13 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="hover:opacity-75 transition-opacity flex items-center gap-2 sm:gap-2"
               >
-                <span className="text-[#3b82f6] hidden sm:inline">Download Resume</span>
                 <Image
                   src="/Icons/download.svg"
                   alt="Resume Icon"
                   width={20}
                   height={20}
                 />
+                <span className="text-[#3b82f6] hidden sm:inline">Download Resume</span>
               </a>
             </div>
           </div>
